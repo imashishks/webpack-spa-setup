@@ -2,7 +2,8 @@
   "scripts": {
     "start": "webpack serve",
     "watch": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "build:prod":"set NODE_ENV=production && webpack"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",

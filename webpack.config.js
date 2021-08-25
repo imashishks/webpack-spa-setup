@@ -1,3 +1,8 @@
+let mode = "development";
+if(process.env.NODE_ENV === "production"){
+    mode ="production";
+    console.log(mode);
+}
 module.exports = {
     mode: 'development',
     module:{
@@ -9,7 +14,7 @@ module.exports = {
             }
         }]
     },
-    devtool: false,
+    devtool: 'source-map',
     devServer:{
         contentBase: '/dist'
     }
