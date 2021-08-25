@@ -1,22 +1,10 @@
 {
-  "name": "webpack-spa-setup",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/imashishks/webpack-spa-setup.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/imashishks/webpack-spa-setup/issues"
-  },
-  "homepage": "https://github.com/imashishks/webpack-spa-setup#readme",
+  
   "devDependencies": {
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
